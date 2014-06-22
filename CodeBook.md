@@ -1,0 +1,16 @@
+CodeBook for 
+Coursera::DataScience::Data
+========================================================
+
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r fig.width=7, fig.height=6}
+plot(cars)
+```
+
