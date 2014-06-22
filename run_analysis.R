@@ -64,6 +64,8 @@ data.tidy <- ddply(data.full, .(subject, activityCode), numcolwise(mean))
 # add activityname to frame
 data.tidy$activityName <- data.activity[data.tidy$activityCode,]$activityName
 
+# store tidydata file
+write.csv(data.tidy, "tidydata.txt", row.names = FALSE)
 
 # finalize script, restore all paths, ...
 setwd(WD)

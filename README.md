@@ -24,8 +24,8 @@ Steps that are need to do for using script
 1. Download data files and unzip them
 2. Locate source code scripts .R into one folder
 3. Configure defaults.R parameters
-  - `datapath` is required to configure correctly
-  - all other paramters can be used default if you don't change file names
+  - `datapath` is required to be configured correctly to data files location
+  - all other paramters can be used default if you don''t change file names
 4. setwd to source folder with R scripts
 5. run script with 
 ```
