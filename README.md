@@ -33,3 +33,14 @@ Steps that are need to do for using script
 Result stored into configured `file.output` file name. Default to `tidydata.txt`
 ```
 
+Dependencies
+```{r}
+R : >2.0.0
+R used during development : 3.1.0
+  
+  
+Packages: plyr
+
+Data files: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+```
