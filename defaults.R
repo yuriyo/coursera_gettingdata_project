@@ -4,6 +4,7 @@ options(
     set.test="test",
     set.train="train",
     file.activity_label="activity_labels.txt",
-    file.features="features.txt"
+    file.features="features.txt",
+    file.output="tidydata.txt"
     )
   )

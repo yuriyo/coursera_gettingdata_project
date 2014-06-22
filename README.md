@@ -1,5 +1,6 @@
 Coursera::DataScience::GettingData course project
 ========================================================
+yuriyo,2014
 
 Course project requirements
 
@@ -25,8 +26,10 @@ Steps that are need to do for using script
 2. Locate source code scripts .R into one folder
 3. Configure defaults.R parameters
   - `datapath` is required to be configured correctly to data files location
-  - all other paramters can be used default if you don''t change file names
+  - all other paramters can be used defaults, if you don''t change file names
 4. setwd to source folder with R scripts
-5. run script with 
+5. run script with `source("run_analysis.R")`
+
+Result stored into configured `file.output` file name. Default to `tidydata.txt`
 ```
 
